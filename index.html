@@ -6,5 +6,25 @@
 </head>
 <body>
 	<h1>Segunda pruba con git</h1>
+	<p>
+		iMac-de-Ismael:prueba2 ismaelgs$ git push origin master
+		Everything up-to-date
+		iMac-de-Ismael:prueba2 ismaelgs$ git branch
+		* master
+		iMac-de-Ismael:prueba2 ismaelgs$ git checkout test
+		error: pathspec 'test' did not match any file(s) known to git.
+		iMac-de-Ismael:prueba2 ismaelgs$ git checkout "test"
+		error: pathspec 'test' did not match any file(s) known to git.
+		iMac-de-Ismael:prueba2 ismaelgs$ git status
+		On branch master
+		nothing to commit, working tree clean
+		iMac-de-Ismael:prueba2 ismaelgs$ git checkout -b test
+		Switched to a new branch 'test'
+		iMac-de-Ismael:prueba2 ismaelgs$ git checkout
+		iMac-de-Ismael:prueba2 ismaelgs$ git branch
+		  master
+		* test
+		iMac-de-Ismael:prueba2 ismaelgs$ 	
+	</p>
 </body>
 </html>
